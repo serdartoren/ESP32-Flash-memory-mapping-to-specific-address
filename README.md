@@ -21,7 +21,10 @@ https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storag
 
 # Partition Memory Map Example
 
-This example demonstrates how to use `esp_partition_mmap` to configure MMU and map a partition into memory address space for read operations.
+This example demonstrates how to use `esp_partition_mmap` to configure MMU and map a partition into memory address space for read operations.  
+![image](https://user-images.githubusercontent.com/42543700/187787534-74aca6c7-069a-41e6-8d9d-28f7ef9752fd.png)  
+Partition Memory Map in this project
+
 
 # Example Flow
 
