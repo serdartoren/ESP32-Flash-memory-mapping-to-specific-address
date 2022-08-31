@@ -1,0 +1,67 @@
+[0;33m--- idf_monitor on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081048: call_start_cpu1 at /home/serdar/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400dcf1d: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d768d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d51c4: setupTask2 at /home/serdar/esp/partition_mmap/main/main.c:83
+[0m
+[0;33m0x40087cfd: vPortTaskWrapper at /home/serdar/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:150
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081048: call_start_cpu1 at /home/serdar/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400dcf1d: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d768d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d51c4: setupTask2 at /home/serdar/esp/partition_mmap/main/main.c:83
+[0m
+[0;33m0x40087cfd: vPortTaskWrapper at /home/serdar/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:150
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081048: call_start_cpu1 at /home/serdar/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400dcf1d: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d768d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d51c4: setupTask2 at /home/serdar/esp/partition_mmap/main/main.c:83
+[0m
+[0;33m0x40087cfd: vPortTaskWrapper at /home/serdar/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:150
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081048: call_start_cpu1 at /home/serdar/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400dcf1d: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d768d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d51c4: setupTask2 at /home/serdar/esp/partition_mmap/main/main.c:83
+[0m
+[0;33m0x40087cfd: vPortTaskWrapper at /home/serdar/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:150
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081048: call_start_cpu1 at /home/serdar/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400dcf1d: _vfprintf_r at ??:?
+[0m
+[0;33m0x400d768d: printf at /builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/newlib/newlib/libc/stdio/printf.c:56 (discriminator 5)
+[0m
+[0;33m0x400d51c4: setupTask2 at /home/serdar/esp/partition_mmap/main/main.c:83
+[0m
+[0;33m0x40087cfd: vPortTaskWrapper at /home/serdar/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:150
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081048: call_start_cpu1 at /home/serdar/esp/esp-idf/components/esp_system/port/cpu_start.c:154
+[0m
+[0m

@@ -1,0 +1,1071 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6940
+ho 0 tail 12 room 4
+load:0x40078000,len:15388
+load:0x40080400,len:3824
+entry 0x4008064c
+[0;32mI (29) boot: ESP-IDF v5.0-dev-4379-g36f49f361c-dirty 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time 11:43:14[0m
+[0;32mI (30) boot: chip revision: V300[0m
+[0;32mI (34) boot_comm: chip revision: 3, min. bootloader chip revision: 0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 16MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot:  3 storage0         WiFi data        01 02 00110000 00040000[0m
+[0;32mI (101) boot:  4 storage1         WiFi data        01 02 00150000 00040000[0m
+[0;32mI (109) boot:  5 test             WiFi data        01 02 00190000 00040000[0m
+[0;32mI (116) boot:  6 storage3         WiFi data        01 02 001d0000 00040000[0m
+[0;32mI (124) boot: End of partition table[0m
+[0;32mI (128) boot_comm: chip revision: 3, min. application chip revision: 0[0m
+[0;32mI (135) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=07cfch ( 31996) map[0m
+[0;32mI (156) esp_image: segment 1: paddr=00017d24 vaddr=3ffb0000 size=0263ch (  9788) load[0m
+[0;32mI (160) esp_image: segment 2: paddr=0001a368 vaddr=40080000 size=05cb0h ( 23728) load[0m
+[0;32mI (173) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=158c8h ( 88264) map[0m
+[0;32mI (205) esp_image: segment 4: paddr=000358f0 vaddr=40085cb0 size=05d78h ( 23928) load[0m
+[0;32mI (215) esp_image: segment 5: paddr=0003b670 vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (221) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (222) boot: Disabling RNG early entropy source...[0m
+[0;32mI (236) cpu_start: Pro cpu up.[0m
+[0;32mI (236) cpu_start: Starting app cpu, entry point is 0x40081070[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (250) cpu_start: Pro cpu start user code[0m
+[0;32mI (250) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (250) cpu_start: Application information:[0m
+[0;32mI (255) cpu_start: Project name:     partition_mmap[0m
+[0;32mI (261) cpu_start: App version:      1[0m
+[0;32mI (265) cpu_start: Compile time:     Aug 29 2022 11:43:02[0m
+[0;32mI (271) cpu_start: ELF file SHA256:  9e7afb915abe5e32...[0m
+[0;32mI (277) cpu_start: ESP-IDF:          v5.0-dev-4379-g36f49f361c-dirty[0m
+[0;32mI (284) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (291) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (297) heap_init: At 3FFB2F20 len 0002D0E0 (180 KiB): DRAM[0m
+[0;32mI (304) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (310) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (316) heap_init: At 4008BA28 len 000145D8 (81 KiB): IRAM[0m
+[0;32mI (324) spi_flash: detected chip: generic[0m
+[0;32mI (327) spi_flash: flash io: dio[0m
+[0;32mI (332) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+[0;32mI (270) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (270) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (280) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (290) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (540) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (540) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (550) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (560) example: Unmapped partition from data memory[0m
+[0;32mI (570) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (5850) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (5850) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (5860) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (5870) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (6090) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (6090) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (6100) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (6110) example: Unmapped partition from data memory[0m
+[0;32mI (6120) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (11400) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (11400) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (11410) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (11420) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (11660) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (11660) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (11670) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (11680) example: Unmapped partition from data memory[0m
+[0;32mI (11690) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (16960) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (16960) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (16970) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (16980) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (17220) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (17220) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (17230) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (17240) example: Unmapped partition from data memory[0m
+[0;32mI (17250) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (22520) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (22520) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (22530) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (22540) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (22780) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (22780) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (22790) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (22800) example: Unmapped partition from data memory[0m
+[0;32mI (22810) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (28080) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (28080) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (28090) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (28100) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (28320) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (28320) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (28330) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (28340) example: Unmapped partition from data memory[0m
+[0;32mI (28350) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (33620) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (33620) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (33630) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (33640) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (33880) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (33880) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (33890) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (33900) example: Unmapped partition from data memory[0m
+[0;32mI (33910) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (39190) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (39190) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (39200) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (39210) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (39460) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (39460) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (39470) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (39480) example: Unmapped partition from data memory[0m
+[0;32mI (39490) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (44760) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (44760) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (44770) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (44780) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (45020) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (45020) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (45030) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (45040) example: Unmapped partition from data memory[0m
+[0;32mI (45050) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (50320) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (50320) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (50330) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (50340) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (50550) example: Written sample data to partition: ESP-IDF Partition Memory Map ExamplemI (50550) example: Mapped partiP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (50570) example: Unmapped partition from data memory[0m
+[0;32mI (50580) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (55860) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (55860) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (55870) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (55880) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (56120) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (56120) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (56130) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (56140) example: Unmapped partition from data memory[0m
+[0;32mI (56150) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (61420) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (61420) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (61430) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (61440) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (61680) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (61680) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (61690) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (61700) example: Unmapped partition from data memory[0m
+[0;32mI (61710) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (66980) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (66980) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (66990) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (67000) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (67240) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (67240) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (67250) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (67260) example: Unmapped partition from data memory[0m
+[0;32mI (67270) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (72540) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (72540) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (72550) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (72560) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (72770) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (72770) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (72780) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (72790) example: Unmapped partition from data memory[0m
+[0;32mI (72800) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (78060) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (78060) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (78070) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (78080) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (78300) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (78300) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (78310) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (78320) example: Unmapped partition from data memory[0m
+[0;32mI (78330) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (83600) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (83600) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (83610) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (83620) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (83860) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (83860) example: Mapped partition to data memory  (83870) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (83880) example: Unmapped partition from data memory[0m
+[0;32mI (83890) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (89160) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (89160) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (89170) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (89180) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (89420) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (89420) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (89430) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (89440) example: Unmapped partition from data memory[0m
+[0;32mI (89450) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (94710) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (94710) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (94720) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (94730) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (94940) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (94940) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (94950) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (94960) example: Unmapped partition from data memory[0m
+[0;32mI (94970) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (100230) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (100230) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (100240) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (100250) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (100480) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (100480) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (100490) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (100500) example: Unmapped partition from data memory[0m
+[0;32mI (100510) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (105780) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (105780) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (105790) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (105800) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (106040) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (106040) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (106050) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (106060) example: Unmapped partition from data memory[0m
+[0;32mI (106070) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (111340) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (111340) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (111350) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (111360) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (111590) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (111590) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (111600) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (111610) example: Unmapped partition from data memory[0m
+[0;32mI (111620) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (116890) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (116890) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (116900) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (116910) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (117130) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (117130) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (117140) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (117150) example: Unmapped partition from data memory[0m
+[0;32mI (117160) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (122430) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (122430) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (122440) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (122450) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (122690) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (122690) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (122700) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (122710) example: Unmapped partition from data memory[0m
+[0;32mI (122720) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (127990) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (127990) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (128000) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (128010) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (128250) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (128250) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (128260) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (128270) example: Unmapped partition from data memory[0m
+[0;32mI (128280) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (133550) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (133550) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (133560) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (133570) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (133810) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (133810) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (133820) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (133830) example: Unmapped partition from data memory[0m
+[0;32mI (133840) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (139110) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (139110) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (139120) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (139130) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (139350) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (139350) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (139360) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (139370) example: Unmapped partition from data memory[0m
+[0;32mI (139380) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (144650) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (144650) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (144660) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (144670) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (144900) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (144900) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (144910) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (144920) example: Unmapped partition from data memory[0m
+[0;32mI (144930) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (150200) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (150200) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (150210) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (150220) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (150460) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (150460) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (150470) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (150480) example: Unmapped partition from data memory[0m
+[0;32mI (150490) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (155750) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (155750) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (155760) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (155770) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (156000) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (156000) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (156010) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (156020) example: Unmapped partition from data memory[0m
+[0;32mI (156030) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (161290) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (161290) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (161300) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (161310) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (161520) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (161520) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (161530) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (161540) example: Unmapped partition from data memory[0m
+[0;32mI (161550) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (166820) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (166820) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (166830) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (166840) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (167080) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (167080) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (167090) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (167100) example: Unmapped partition from data memory[0m
+[0;32mI (167110) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (172370) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (172370) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (172380) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (172390) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (172620) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (172620) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (172630) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (172640) example: Unmapped partition from data memory[0m
+[0;32mI (172650) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (177910) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (177910) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (177920) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (177930) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (178170) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (178170) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (178180) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (178190) example: Unmapped partition from data memory[0m
+[0;32mI (178200) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (183460) example: Written sample data to partition: ESP-IDF Partition Memory Map Exampl0;32mI (183460) example: Mapped SP-IDF Partition Memory Map Example[0m
+[0;32mI (183480) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (183680) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (183680) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (183690) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (183700) example: Unmapped partition from data memory[0m
+[0;32mI (183710) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (188970) example: Written sample data to partition: ESP-IDF Partition Memory Map Exampl
+[0;32mI (188970) example: Mappy: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (188990) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (189220) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (189220) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (189230) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (189240) example: Unmapped partition from data memory[0m
+[0;32mI (189250) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (194510) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (194510) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (194520) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (194530) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (194760) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (194760) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (194770) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (194780) example: Unmapped partition from data memory[0m
+[0;32mI (194790) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (200050) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (200050) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (200060) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (200070) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (200300) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (200300) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (200310) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (200320) example: Unmapped partition from data memory[0m
+[0;32mI (200330) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (205590) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (205590) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (205600) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (205610) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (205830) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (205830) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (205840) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (205850) example: Unmapped partition from data memory[0m
+[0;32mI (205860) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (211120) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (211120) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (211130) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (211140) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (211370) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (211370) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (211380) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (211390) example: Unmapped partition from data memory[0m
+[0;32mI (211400) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (216650) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (216650) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (216660) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (216670) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (216900) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (216900) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (216910) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (216920) example: Unmapped partition from data memory[0m
+[0;32mI (216930) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (222190) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (222190) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (222200) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (222210) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (222440) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (222440) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (222450) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (222460) example: Unmapped partition from data memory[0m
+[0;32mI (222470) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (227720) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (227720) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (227730) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (227740) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (227950) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (227950) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (227960) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (227970) example: Unmapped partition from data memory[0m
+[0;32mI (227980) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (233240) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (233240) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (233250) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (233260) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (233490) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (233490) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (233500) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (233510) example: Unmapped partition from data memory[0m
+[0;32mI (233520) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (238780) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (238780) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (238790) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (238800) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (239030) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (239030) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (239040) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (239050) example: Unmapped partition from data memory[0m
+[0;32mI (239060) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (244310) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (244310) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (244320) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (244330) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (244560) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (244560) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (244570) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (244580) example: Unmapped partition from data memory[0m
+[0;32mI (244590) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (249840) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (249840) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (249850) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (249860) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (250070) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (250070) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (250080) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (250090) example: Unmapped partition from data memory[0m
+[0;32mI (250100) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (255360) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (255360) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (255370) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (255380) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (255600) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (255600) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (255610) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (255620) example: Unmapped partition from data memory[0m
+[0;32mI (255630) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (260890) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (260890) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (260900) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (260910) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (261140) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (261140) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (261150) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (261160) example: Unmapped partition from data memory[0m
+[0;32mI (261170) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (266430) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (266430) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (266440) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (266450) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (266680) example: Written sample data to partition: ESP-IDF Partition Memory Map Exampl32mI (266680) example: Mapped pa-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (266700) example: Unmapped partition from data memory[0m
+[0;32mI (266710) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (271970) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (271970) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (271980) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (271990) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (272200) example: Written sample data to partition: ESP-IDF Partition Memory Map Exampl2mI (272200) example: Mapped parory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (272220) example: Unmapped partition from data memory[0m
+[0;32mI (272230) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (277480) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (277480) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (277490) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (277500) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (277720) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (277720) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (277730) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (277740) example: Unmapped partition from data memory[0m
+[0;32mI (277750) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (283000) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (283000) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (283010) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (283020) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (283260) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (283260) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (283270) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (283280) example: Unmapped partition from data memory[0m
+[0;32mI (283290) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (288540) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (288540) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (288550) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (288560) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (288790) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (288790) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (288800) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (288810) example: Unmapped partition from data memory[0m
+[0;32mI (288820) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (294080) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (294080) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (294090) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (294100) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (294310) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (294310) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (294320) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (294330) example: Unmapped partition from data memory[0m
+[0;32mI (294340) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (299600) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (299600) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (299610) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (299620) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (299850) example: Written sample data to partition: ESP-IDF Partition Memory Map Exampl
+[0;32mI (299850) example: MappP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (299870) example: Unmapped partition from data memory[0m
+[0;32mI (299880) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (305130) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (305130) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (305140) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (305150) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (305380) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (305380) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (305390) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (305400) example: Unmapped partition from data memory[0m
+[0;32mI (305410) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (310670) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (310670) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (310680) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (310690) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (310930) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (310930) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (310940) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (310950) example: Unmapped partition from data memory[0m
+[0;32mI (310960) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (316210) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (316210) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (316220) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (316230) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (316430) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (316430) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (316440) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (316450) example: Unmapped partition from data memory[0m
+[0;32mI (316460) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (321720) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (321720) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (321730) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (321740) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (321970) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (321970) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (321980) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (321990) example: Unmapped partition from data memory[0m
+[0;32mI (322000) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (327250) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (327250) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (327260) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (327270) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (327500) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (327500) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (327510) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (327520) example: Unmapped partition from data memory[0m
+[0;32mI (327530) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (332780) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (332780) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (332790) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (332800) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (333030) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (333030) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (333040) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (333050) example: Unmapped partition from data memory[0m
+[0;32mI (333060) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (338320) example: Written sample data to partition: ESP-IDF Partition Memory Map Exampl0m
+[0;32mI (338320) example: M ESP-IDF Partition Memory Map Example[0m
+[0;32mI (338340) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (338560) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (338560) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (338570) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (338580) example: Unmapped partition from data memory[0m
+[0;32mI (338590) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (343850) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (343850) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (343860) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (343870) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (344100) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (344100) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (344110) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (344120) example: Unmapped partition from data memory[0m
+[0;32mI (344130) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
+[0;32mI (349380) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (349380) example: Mapped partition to data memory address 0x3f410000[0m
+[0;32mI (349390) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (349400) example: Data matches[0m
+Pointer 0x3f410000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (349640) example: Written sample data to partition: ESP-IDF Partition Memory Map Example[0m
+[0;32mI (349640) example: Mapped partition to data memory address 0x3f450000[0m
+[0;32mI (349650) example: Read sample data from partition using mapped memory: ESP-IDF Partition Memory Map Example[0m
+Pointer 0x3f450000
+Text = ESP-IDF Partition Memory Map Example
+[0;32mI (349660) example: Unmapped partition from data memory[0m
+[0;32mI (349670) example: Example end[0m
+***********************************************
+***********************************************
+***********************************************
